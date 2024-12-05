@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  healworld-main-backend:
+    image: hdgtest-main-backend:all
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3111:3111"
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    external: true

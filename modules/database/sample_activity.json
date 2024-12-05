@@ -1,0 +1,49 @@
+{
+    "product": [
+        {
+            "title": "กิจกรรมอาสาสมัครเก็บขยะชายหาด",
+            "description": "ร่วมเก็บขยะและทำความสะอาดชายหาดบางแสน",
+            "category": "สิ่งแวดล้อม",
+            "certificate": "https://example.com/certificate.pdf",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    100.983745,
+                    13.312714
+                ]
+            },
+            "address": "",
+            "time": "2024-03-12T09:00:00+07:00",
+            "rewardPoints": 20,
+            "image": "https://example.com/activity.jpg",
+            "isPublic": true,
+            "allowedUsers": [],
+            "createdBy": "5f4567890123456789abcabc",
+            "updatedAt": "2024-02-15T02:27:11.442Z"
+        },
+        {
+            "title": "ร่วมเก็บขยะและทำความสะอาดชุมชน",
+            "description": "ร่วมเก็บขยะและทำความสะอาดชุมชน ได้ทุกเพศทุกวัย",
+            "category": "การศึกษา",
+            "certificate": null,
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    100.501837,
+                    13.757455
+                ]
+            },
+            "address": "",
+            "time": "2024-04-01T13:00:00+07:00",
+            "rewardPoints": 30,
+            "image": "https://example.com/programming.jpg",
+            "isPublic": false,
+            "allowedUsers": [
+                "5f4567890123456789abcde1",
+                "5f4567890123456789abcde2"
+            ],
+            "createdBy": "5f4567890123456789abcde3",
+            "updatedAt": "2024-02-15T02:27:11.442Z"
+        }
+    ]
+}
